@@ -16,16 +16,13 @@ button.addEventListener('blur',() => {
     console.log('BLUR');
 })
 
-const guestName = prompt('Please, enter your name');
-alert('available rooms are 530, 234, 230')
-const roomNumber = prompt('Choose room number');
-const greeting2 = `Welcome ${guestName}, your name number is ${roomNumber}!`;
-if (guestName && roomNumber) {
-    const el = document.createElement('span');
-    el.innerHTML = greeting2;
-    el.className = 'container';
-    document.body.appendChild(el);
-}
-
-
-
+// const guestName = prompt('Please, enter your name');
+// alert('available rooms are 530, 234, 230')
+// const roomNumber = prompt('Choose room number');
+// const greeting2 = `Welcome ${guestName}, your name number is ${roomNumber}!`;
+// if (guestName && roomNumber) {
+//     const el = document.createElement('span');
+//     el.innerHTML = greeting2;
+//     el.className = 'container';
+//     document.body.appendChild(el);
+// }
